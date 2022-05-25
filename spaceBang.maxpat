@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 952.0, 186.0, 168.0, 265.0 ],
+		"rect" : [ 952.0, 186.0, 257.0, 243.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 173.0, 150.0, 33.0 ],
+					"text" : "<output bang if toggled on and spacebar is pressed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 35.0, 81.0, 20.0 ],
+					"text" : "<toggle on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "output bang if toggled on and spacebar is pressed",
 					"id" : "obj-16",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 185.0, 30.0, 30.0 ]
+					"patching_rect" : [ 39.0, 173.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 55.0, 146.0, 41.0, 22.0 ],
+					"patching_rect" : [ 39.0, 134.0, 41.0, 22.0 ],
 					"text" : "sel 32"
 				}
 
@@ -69,21 +92,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 122.0, 36.0, 22.0 ],
+					"patching_rect" : [ 39.0, 110.0, 36.0, 22.0 ],
 					"text" : "gate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "toggle on/off",
 					"id" : "obj-9",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 47.0, 30.0, 30.0 ]
+					"patching_rect" : [ 39.0, 35.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +117,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 72.0, 83.0, 50.5, 22.0 ],
+					"patching_rect" : [ 56.0, 71.0, 50.5, 22.0 ],
 					"text" : "key"
 				}
 
