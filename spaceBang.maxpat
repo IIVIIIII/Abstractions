@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 137.0, 95.0, 84.0, 33.0 ],
+					"text" : "^argument for on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 107.5, 71.0, 82.0, 22.0 ],
+					"text" : "patcherargs 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 173.0, 150.0, 33.0 ],
+					"patching_rect" : [ 70.0, 173.0, 151.0, 33.0 ],
 					"text" : "<output bang if toggled on and spacebar is pressed"
 				}
 
@@ -56,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 35.0, 81.0, 20.0 ],
+					"patching_rect" : [ 70.0, 35.0, 81.0, 20.0 ],
 					"text" : "<toggle on/off"
 				}
 
@@ -69,7 +93,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 173.0, 30.0, 30.0 ]
+					"patching_rect" : [ 38.0, 173.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -80,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 39.0, 134.0, 41.0, 22.0 ],
+					"patching_rect" : [ 38.0, 134.0, 41.0, 22.0 ],
 					"text" : "sel 32"
 				}
 
@@ -92,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 110.0, 36.0, 22.0 ],
+					"patching_rect" : [ 38.0, 110.0, 36.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -106,7 +130,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 35.0, 30.0, 30.0 ]
+					"patching_rect" : [ 38.0, 35.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -117,13 +141,20 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 56.0, 71.0, 50.5, 22.0 ],
+					"patching_rect" : [ 55.0, 71.0, 50.5, 22.0 ],
 					"text" : "key"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
