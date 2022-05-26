@@ -79,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 33.0, 125.0, 33.0 ],
+					"patching_rect" : [ 179.0, 33.0, 128.0, 33.0 ],
 					"text" : "<prepended message (ex: \"read\")"
 				}
 
@@ -171,9 +171,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "absolute path to file",
 					"id" : "obj-15",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -186,7 +186,7 @@
 					"comment" : "file name",
 					"cool" : 1,
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -199,7 +199,7 @@
 				"box" : 				{
 					"comment" : "prepended message (ex: \"read\")",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -392,7 +392,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
