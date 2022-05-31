@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 98.0, 199.0, 396.0, 473.0 ],
+		"rect" : [ 497.0, 79.0, 396.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 53.0, 84.0, 60.0 ],
+					"patching_rect" : [ 287.0, 53.0, 87.0, 60.0 ],
 					"text" : "^arguments for prepended message and file name"
 				}
 

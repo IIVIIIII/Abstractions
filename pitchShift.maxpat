@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 322.0, 492.0, 529.0 ],
+		"rect" : [ 365.0, 546.0, 492.0, 490.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 368.0, 83.0, 20.0 ],
+					"patching_rect" : [ 221.0, 335.5, 83.0, 20.0 ],
 					"text" : "^channel 2(L)"
 				}
 
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.5, 368.0, 83.0, 20.0 ],
+					"patching_rect" : [ 125.5, 335.5, 83.0, 20.0 ],
 					"text" : "^channel 1(L)"
 				}
 
@@ -140,7 +140,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.5, 473.0, 30.0, 30.0 ]
+					"patching_rect" : [ 206.5, 431.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.5, 473.0, 30.0, 30.0 ]
+					"patching_rect" : [ 85.5, 431.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.5, 336.0, 30.0, 30.0 ]
+					"patching_rect" : [ 206.5, 303.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.5, 336.0, 30.0, 30.0 ]
+					"patching_rect" : [ 113.5, 303.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "list" ],
-					"patching_rect" : [ 85.5, 427.5, 89.0, 22.0 ],
+					"patching_rect" : [ 85.5, 390.5, 261.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
 						"pitchshift" : [ 1.059463094359295 ],
@@ -426,6 +426,37 @@
 					}
 ,
 					"text" : "pitchshift~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-58",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.5, 132.0, 157.0, 47.0 ],
+					"text" : "This abstraction is pretty much just the pitchshift help file except... abstracted"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-60",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 46.375, 126.0, 167.25, 59.0 ],
+					"proportion" : 0.5,
+					"rounded" : 15
 				}
 
 			}
