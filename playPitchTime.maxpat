@@ -265,7 +265,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "semitones from starting pitch",
 					"id" : "obj-1",
 					"index" : 1,
 					"maxclass" : "inlet",
