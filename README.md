@@ -13,11 +13,11 @@ Phase vocoder by Cycling74 that has been modified to have a stereo output and hi
 ### [pitchShift]
 Basically just Cycling74's help file for the pitchshift object in an abstraction for convenience's sake.
 
-### [playPitchTime]
-Generate a start message to be sent to a play~ object that will playback the loaded file at a determined pitch. Maintains set playback destination and adjusts pitch by changing playback duration.
-
-### [playPitchLength]
+### [playPitchDestiny]
 Generate a start message to be sent to a play~ object that will playback the loaded file at a determined pitch. Maintains set playback duration and adjusts pitch by changing playback destination (note that the calculated destination may exceed the length of the file).
+
+### [playPitchDuration]
+Generate a start message to be sent to a play~ object that will playback the loaded file at a determined pitch. Maintains set playback destination and adjusts pitch by changing playback duration.
 
 ### [randEnv]
 Generate a pseudo random envelope with the general contour of an ADSR envelope.

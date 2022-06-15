@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 338.0, 141.0, 109.0, 60.0 ],
-					"text" : "^arguments for start position and playback length at x1 speed (ms)"
+					"text" : "^arguments for start position and playback duration at x1 speed (ms)"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"comment" : "playback length at x1 speed (ms)",
 					"cool" : 1,
 					"id" : "obj-39",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -93,7 +93,7 @@
 					"comment" : "start position (ms)",
 					"cool" : 1,
 					"id" : "obj-40",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -133,8 +133,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.5, 185.0, 82.0, 47.0 ],
-					"text" : "calculate new playback length (ms)"
+					"patching_rect" : [ 87.5, 185.0, 85.0, 47.0 ],
+					"text" : "calculate new playback duration (ms)"
 				}
 
 			}
@@ -267,7 +267,7 @@
 				"box" : 				{
 					"comment" : "semitones from starting pitch",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -305,7 +305,7 @@
 				"box" : 				{
 					"comment" : "start message with properly adjusted times",
 					"id" : "obj-34",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -448,7 +448,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

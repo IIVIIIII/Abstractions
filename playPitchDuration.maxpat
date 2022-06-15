@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1195.0, 193.0, 497.0, 502.0 ],
+		"rect" : [ 354.0, 245.0, 497.0, 502.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 354.0, 145.0, 109.0, 60.0 ],
-					"text" : "^arguments for start position and playback length at x1 speed (ms)"
+					"text" : "^arguments for start position and playback duration at x1 speed (ms)"
 				}
 
 			}
@@ -145,8 +145,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 177.0, 85.0, 47.0 ],
-					"text" : "calculate new playback time (ms)"
+					"patching_rect" : [ 96.0, 177.0, 95.0, 47.0 ],
+					"text" : "calculate new playback destination (ms)"
 				}
 
 			}
