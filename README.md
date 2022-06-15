@@ -1,5 +1,5 @@
 # IIVIIIII Abstractions
-A library of custom Max abstractions.
+A library of custom Max abstractions. Be aware that some of these abstractions are dependant on others within this repo. It is recommended that all abstractions are downloaded together to insure that they all work.
 
 ### [pan]
 Pan audio between left and right outlets. Use third inlet to set pan level with 0 being hard left, and 100 being hard right.
