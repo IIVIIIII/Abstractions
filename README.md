@@ -1,7 +1,7 @@
 # IIVIIIII Abstractions
 A library of custom Max abstractions
 
-### pan
+### [pan]
 Pan audio between left and right outlets. Use third inlet to set pan level with 0 being hard left, and 100 being hard right.
 
 ### relativeFile
